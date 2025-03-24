@@ -20,7 +20,7 @@ def extract_text_from_pdf(pdf_file):
 
 def validate_resume(resume_content, job_description):
     """Validates a resume against a job description using Gemini."""
-    genai.configure(api_key="AIzaSyCneiYCmB5fSyWF5fd7SN4q4VAOWBEgRwA") #api key will be deleted in few days
+    genai.configure(api_key="INSERT YOUR KEY") #api key will be deleted in few days
     model = genai.GenerativeModel('gemini-2.0-flash')
 
     prompt = f"""
